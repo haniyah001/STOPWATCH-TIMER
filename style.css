@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.background {
+  height: 100vh;
+  background-color: #d46a8c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: rgb(226, 219, 217);
+  border-radius: 15px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.box h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.timing {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 25px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  height: 6rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  background-color: rgb(193, 70, 160);
+  color: white;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.laps h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 10px 0;
+  background: gray;
+}
+
+.lap {
+  padding: 7px 15px;
+  font-size: 13px;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.lap_lists {
+  overflow-y: auto;
+  height: 80px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lap_lists::-webkit-scrollbar {
+  width: 0rem;
+}
+
+:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
